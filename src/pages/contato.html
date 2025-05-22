@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato – Vinharia Agnello</title>
+    <link rel="stylesheet" href="../css/flex-style.css" />
+    <link rel="icon" href="../assets/favicon.ico" type="image/png">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-p8fWq2r2yLpZJWQXb+9jdsfB2Ig1vhklfozkTPuEYV+EYy9k8NPOP6r5E9BOqZ1YHXrrJ+QroN0Bl8klW+oO9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="menu">
+        <a href="../../flex-layout.html">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="contato.html" class="active">Contato</a>
+      </nav>
+    </header>
+
+    <main class="container fade-in">
+      <section class="contact-form slide-up">
+        <h1>Fale Conosco</h1>
+        <form>
+          <label for="name">Nome</label>
+          <input type="text" id="name" placeholder="Seu nome" required />
+
+          <label for="email">E-mail</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="seu@exemplo.com"
+            required
+          />
+
+          <label for="message">Mensagem</label>
+          <textarea
+            id="message"
+            rows="5"
+            placeholder="Sua mensagem…"
+            required
+          ></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2025 Vinharia Agnello.</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 800,
+        once: true,
+      });
+    </script>
+  </body>
+</html>
