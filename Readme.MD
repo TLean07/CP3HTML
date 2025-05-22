@@ -38,10 +38,9 @@ CP3HTML/
 | Contato  | `contato.html`  |
 
 ## 🧑‍💻 Autor
-
-| Nome                               | RM     |
-| ---------------------------------- | ------ |
-| Leandro Afonso Silva Santos Junior | 561344 |
+| Nome                                                         | RM     | GitHub                               |
+| ------------------------------------------------------------ | ------ | ------------------------------------ |
+| Leandro Afonso Silva Santos Junior                           | 561344 | [TLean07](https://github.com/TLean07) |
 
 ## 🌐 Links
 
