@@ -13,10 +13,10 @@ CP3HTML/
 ├── 📄 README.md
 └── src  
     ├── css/ ── 🎨 flex-style.css
-    └── src
+    └── pages/
         ├── 💼 sobre.html
         ├── 🍇 produtos.html
-        └──📬 contato.html
+        └── 📬 contato.html
 ```
 
 ## 🚀 Recursos Técnicos Aplicados
