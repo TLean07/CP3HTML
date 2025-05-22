@@ -9,7 +9,7 @@ Página única e páginas adicionais para a **Vinharia Agnello**, utilizando **F
 ```bash
 CP3HTML/
 │
-├── 🏠 flex-layout.html
+├── 🏠 index.html (tem que ser index.html, flex-layout.html buga no github pages)
 ├── 📄 README.md
 └── src  
     ├── css/ ── 🎨 flex-style.css
@@ -32,7 +32,7 @@ CP3HTML/
 
 | Página   | Arquivo         |
 | -------- | --------------- |
-| Início   | `flex-layout.html`    |
+| Início   | `index.html`    |
 | Sobre    | `sobre.html`    |
 | Produtos | `produtos.html` |
 | Contato  | `contato.html`  |
